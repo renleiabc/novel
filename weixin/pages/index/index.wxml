@@ -10,4 +10,6 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view>Hello{{name.name}}</view>
+  <button bindtap='changeName'>Clike me</button>
 </view>
