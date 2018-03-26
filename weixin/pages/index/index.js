@@ -18,8 +18,35 @@ Page({
       url: '../logs/logs'
     })
   },
-  changeName: function (e) {
-    console.log(e)
+  changeone: function () {
+    wx.navigateTo({
+      url: '../one/one'
+    })
+  },
+  changetwo: function () {
+    wx.navigateTo({
+      url: '../two/two'
+    })
+  },
+  changethree: function () {
+    wx.navigateTo({
+      url: '../three/three'
+    })
+  },
+  changefour: function () {
+    wx.navigateTo({
+      url: '../four/four'
+    })
+  },
+  changefive: function () {
+    wx.navigateTo({
+      url: '../five/five'
+    })
+  },
+  changesix: function (e) {
+    wx.navigateTo({
+      url: '../six/six'
+    })
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

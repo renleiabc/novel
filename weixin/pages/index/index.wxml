@@ -11,5 +11,13 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <view>Hello{{name.name}}</view>
-  <button bindtap='changeName'>Clike me</button>
+  <view>
+    <button bindtap='changeone'>one</button>
+    <button bindtap='changetwo'>two</button>
+    <button bindtap='changethree'>three</button>
+    <button bindtap='changefour'>four</button>
+    <button bindtap='changefive'>five</button>
+    <button bindtap='changesix'>six</button>
+  </view>
+
 </view>
